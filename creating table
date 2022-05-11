@@ -1,0 +1,5 @@
+ARTIST (Art_id, Art_Name, Art_Gender) 
+PRODUCER (Prod_id, Prod_Name, Prod_Phone)
+FILMS (Film_id, Film_Title, Film_Year, Film_Lang, Prod_id) 
+CASTING (Art_id, Film_id, Part) 
+REVIEW (Film_id, Stars)
